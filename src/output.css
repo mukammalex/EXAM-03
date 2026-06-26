@@ -615,6 +615,12 @@
   .bg-\[url\(\.\.\/img\/G24\.png\)\] {
     background-image: url(../img/G24.png);
   }
+  .bg-\[url\(\.\.\/img\/kuku\.png\)\] {
+    background-image: url(../img/kuku.png);
+  }
+  .bg-\[url\(\.\.img\/kuku\.png\)\] {
+    background-image: url(..img/kuku.png);
+  }
   .bg-\[url\(\.\/img\/G24\.png\)\] {
     background-image: url(./img/G24.png);
   }
