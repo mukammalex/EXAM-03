@@ -426,8 +426,17 @@
   .h-\[30vh\] {
     height: 30vh;
   }
+  .h-\[37vh\] {
+    height: 37vh;
+  }
+  .h-\[39vh\] {
+    height: 39vh;
+  }
   .h-\[40vh\] {
     height: 40vh;
+  }
+  .h-\[50vh\] {
+    height: 50vh;
   }
   .h-\[100vh\] {
     height: 100vh;
@@ -594,6 +603,9 @@
   .bg-\[url\(\)\] {
     background-image: url();
   }
+  .bg-\[url\(\.\.\/\)\] {
+    background-image: url(../);
+  }
   .bg-\[url\(\.\.\/img\)\] {
     background-image: url(../img);
   }
@@ -614,6 +626,9 @@
   }
   .bg-\[url\(\.\.\/img\/G24\.png\)\] {
     background-image: url(../img/G24.png);
+  }
+  .bg-\[url\(\.\.\/img\/kilkil\.png\)\] {
+    background-image: url(../img/kilkil.png);
   }
   .bg-\[url\(\.\.\/img\/kuku\.png\)\] {
     background-image: url(../img/kuku.png);
@@ -639,6 +654,12 @@
   .to-purple-500 {
     --tw-gradient-to: var(--color-purple-500);
     --tw-gradient-stops: var(--tw-gradient-via-stops, var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position));
+  }
+  .bg-center {
+    background-position: center;
+  }
+  .bg-no-repeat {
+    background-repeat: no-repeat;
   }
   .p-0 {
     padding: 0;
