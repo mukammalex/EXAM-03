@@ -23,7 +23,6 @@ The project focuses on creating a clean user interface, modern layouts, and resp
 
 * HTML5
 * Tailwind CSS
-* JavaScript
 * Git & GitHub
 
 ##  Project Structure
