@@ -7,6 +7,7 @@
       "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
       "Courier New", monospace;
+    --color-amber-50: oklch(98.7% 0.022 95.277);
     --color-amber-400: oklch(82.8% 0.189 84.429);
     --color-blue-500: oklch(62.3% 0.214 259.815);
     --color-purple-500: oklch(62.7% 0.265 303.9);
@@ -27,6 +28,7 @@
     --text-7xl: 4.5rem;
     --text-7xl--line-height: 1;
     --font-weight-bold: 700;
+    --font-weight-black: 900;
     --radius-xl: 0.75rem;
     --radius-2xl: 1rem;
     --radius-3xl: 1.5rem;
@@ -352,6 +354,9 @@
   .m-auto {
     margin: auto;
   }
+  .mt-4 {
+    margin-top: calc(var(--spacing) * 4);
+  }
   .mt-5 {
     margin-top: calc(var(--spacing) * 5);
   }
@@ -361,8 +366,23 @@
   .mt-20 {
     margin-top: calc(var(--spacing) * 20);
   }
+  .mt-25 {
+    margin-top: calc(var(--spacing) * 25);
+  }
+  .mt-30 {
+    margin-top: calc(var(--spacing) * 30);
+  }
+  .mt-35 {
+    margin-top: calc(var(--spacing) * 35);
+  }
   .mt-40 {
     margin-top: calc(var(--spacing) * 40);
+  }
+  .mt-42 {
+    margin-top: calc(var(--spacing) * 42);
+  }
+  .mt-45 {
+    margin-top: calc(var(--spacing) * 45);
   }
   .mt-\[-10vh\] {
     margin-top: -10vh;
@@ -442,6 +462,9 @@
   .w-full {
     width: 100%;
   }
+  .max-w-0 {
+    max-width: 0;
+  }
   .max-w-300 {
     max-width: calc(var(--spacing) * 300);
   }
@@ -450,6 +473,9 @@
   }
   .flex-col {
     flex-direction: column;
+  }
+  .flex-wrap {
+    flex-wrap: wrap;
   }
   .items-center {
     align-items: center;
@@ -468,6 +494,9 @@
   }
   .gap-0 {
     gap: 0;
+  }
+  .gap-4 {
+    gap: calc(var(--spacing) * 4);
   }
   .gap-5 {
     gap: calc(var(--spacing) * 5);
@@ -494,6 +523,9 @@
     border-style: var(--tw-border-style);
     border-width: 2px;
   }
+  .border-\[\#459CF3\] {
+    border-color: #459CF3;
+  }
   .border-\[\#777\] {
     border-color: #777;
   }
@@ -506,6 +538,9 @@
   .bg-\[\#2E2E2E\] {
     background-color: #2E2E2E;
   }
+  .bg-\[\#459CF3\] {
+    background-color: #459CF3;
+  }
   .bg-\[\#777\] {
     background-color: #777;
   }
@@ -517,6 +552,9 @@
   }
   .bg-\[url\] {
     background-color: url;
+  }
+  .bg-amber-50 {
+    background-color: var(--color-amber-50);
   }
   .bg-linear-to-b {
     --tw-gradient-position: to bottom;
@@ -596,8 +634,17 @@
   .px-10 {
     padding-inline: calc(var(--spacing) * 10);
   }
+  .px-15 {
+    padding-inline: calc(var(--spacing) * 15);
+  }
   .py-2 {
     padding-block: calc(var(--spacing) * 2);
+  }
+  .py-3 {
+    padding-block: calc(var(--spacing) * 3);
+  }
+  .py-5 {
+    padding-block: calc(var(--spacing) * 5);
   }
   .text-center {
     text-align: center;
@@ -644,6 +691,10 @@
   .leading-20 {
     --tw-leading: calc(var(--spacing) * 20);
     line-height: calc(var(--spacing) * 20);
+  }
+  .font-black {
+    --tw-font-weight: var(--font-weight-black);
+    font-weight: var(--font-weight-black);
   }
   .font-bold {
     --tw-font-weight: var(--font-weight-bold);
